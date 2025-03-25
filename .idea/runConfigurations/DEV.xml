@@ -2,6 +2,10 @@
   <configuration default="false" name="DEV" type="Application" factoryName="Application">
     <option name="ALTERNATIVE_JRE_PATH" value="corretto-17" />
     <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <envs>
+      <env name="APP_EMAIL" value="devleonardosantos95@gmail.com" />
+      <env name="APP_PASSWORD" value="aylk euww wzke ercm" />
+    </envs>
     <option name="MAIN_CLASS_NAME" value="com.api.Email.EmailHandlerApplication" />
     <module name="Email" />
     <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/.." />
